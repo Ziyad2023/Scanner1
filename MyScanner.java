@@ -4,7 +4,7 @@ public class MyScanner
 {
 
     public void run() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useDelimiter(",");
         while (true) {
             if (scanner.hasNext()) {
                 // 3
